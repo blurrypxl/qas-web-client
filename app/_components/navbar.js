@@ -1,14 +1,14 @@
 import Logo from "./logo";
 import Menu from "./menu";
 import SubNavbar from "./subNavbar";
-// import LineDecoration from "./lineDecoration";
+import Separator from "./separator";
 
 export default function Navbar() {
   return (
     <div className="bg-white shadow-sm rounded">
       <SubNavbar />
-
-      <nav className="navbar navbar-expand-sm nav-shadow">
+      <Separator />
+      <nav className="p-0 navbar navbar-expand-sm nav-shadow">
         <div className="container-fluid">
           <Logo />
 

@@ -2,10 +2,16 @@ import styles from "../page.module.css";
 
 export default function SubNavbar() {
   return (
-    <div className={"container-fluid d-flex flex-row jusify-content-center " + styles.mainBackgroundColor}>
-      <div className={"row " + styles.fontSizeSmall}>
+    <div className="container-fluid pt-1 pb-1 d-flex flex-row justify-content-center bg-white">
+      <div className={"border border-black row w-100 " + styles.fontSizeSmall}>
         <div className="col">
-          <p className="mb-0 text-white">Working Hours: Senin s.d Jumat - 08:00 WIB s.d 16:00 WIB</p>
+          <p className={"mb-0 fw-bold " + styles.mainFontColor}><span>Jam Kerja</span> Kami:</p>
+        </div>
+
+        <div className="col">
+          <div className="d-flex flex-row">
+
+          </div>
         </div>
       </div>
     </div>

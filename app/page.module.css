@@ -17,6 +17,11 @@
   background-color: #173235;
 }
 
+.separator {
+  width: 100%;
+  border-top: 1px solid rgb(106, 106, 106);
+}
+
 .lineDeco {
   /* border: 1px solid black; */
   background-color: #173235;
@@ -28,7 +33,7 @@
 }
 
 .welcomeContainer {
-  height: 100vh;
+  height: 85vh;
 }
 
 .borderSquareStrip {
@@ -40,11 +45,3 @@
   border: 4px solid white;
   border-radius: 2%;
 }
-
-/* .fixedHeightContainer {
-  height: 30em;
-} */
-
-/* .overflowContainer {
-  overflow: scroll;
-} */

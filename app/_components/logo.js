@@ -8,8 +8,8 @@ export default function Logo() {
         src="/logo/Qas-Logo-Transparent.png"
         alt="Logo PT Qiyyama Aretha Solution"
         className="d-inline-block align-text-top"
-        width="193"
-        height="45"
+        width="234"
+        height="56"
       />
     </Link>
   );
